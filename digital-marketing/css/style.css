@@ -2084,7 +2084,7 @@ span{
     }
     .logo {
 
-        max-width: 65px;
+        max-width: 100px;
     }
 
     .side-menu {
@@ -2277,5 +2277,8 @@ span{
   .banner-icons {
     display:none;
     }
+
+}
+{
 
 }
