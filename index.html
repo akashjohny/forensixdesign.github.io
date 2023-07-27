@@ -288,7 +288,7 @@
                 var Tc = $concreteTemp.val();
                 var Ta = $airTemp.val();
                 var V = $wind.val();
-                var r = $relativeHum.val();
+                var r = $relativeHum.val() / 100;
                 if(Tc > 0 || Ta > 0 || V > 0 || r > 0){
                     result = roundToTwo((Math.pow(Tc, 2.5)-r*Math.pow(Ta, 2.5))*(1+(0.4*V))*Math.pow(10, -6));
                 }
